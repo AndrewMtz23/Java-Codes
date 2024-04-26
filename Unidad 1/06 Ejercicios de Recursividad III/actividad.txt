@@ -1,0 +1,3 @@
+Crea un método que compruebe si un número es binario. Un número binario está formado únicamente por ceros y unos
+
+Programar un algoritmo recursivo que permita sumar los dígitos de un número. Ejemplo: Entrada: 123 Resultado:6

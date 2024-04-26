@@ -1,0 +1,8 @@
+Ejercicio 8: Crear un metodo recursivo para obtener la suma de los
+ numeros naturales desde 1 hasta N. Debes pasar como parametro N.
+
+ Ejercicio 9:Crea un método que obtenga la cantidad de dígitos
+ de un número N. Se debe pasar como parámetro el número N
+
+ Ejercicio 10: Crear un método que obtenga el resultado de
+ elevar un número a otro. Ambos números se deben pasar como parámetros
