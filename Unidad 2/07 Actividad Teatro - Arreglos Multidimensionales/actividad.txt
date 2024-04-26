@@ -1,0 +1,4 @@
+Gestión de Asientos en un Teatro
+Crear un programa para gestionar los asientos de un teatro. El programa permitirá reservar y cancelar asientos, así como mostrar el estado actual de la disponibilidad de los asientos en el teatro.
+
+Les mando un ejemplo de este ejercicio su trabajo sera realizar una propuesta diferentes a la entregada

@@ -1,0 +1,56 @@
+public class Teatro {
+    private char[][] asientos;
+
+    public Teatro(int filas, int columnas) {
+        asientos = new char[filas][columnas];
+        // Inicializar todos los asientos como disponibles ('O')
+        for (int i = 0; i < filas; i++) {
+            for (int j = 0; j < columnas; j++) {
+                asientos[i][j] = 'O';
+            }
+        }
+    }
+
+    public void reservarAsiento(int fila, int columna) {
+        if (asientos[fila][columna] == 'O') {
+            asientos[fila][columna] = 'X'; // Asiento reservado
+            System.out.println("Asiento reservado correctamente.");
+        } else {
+            System.out.println("Lo sentimos, ese asiento ya está ocupado.");
+        }
+    }
+
+    public void cancelarReserva(int fila, int columna) {
+        if (asientos[fila][columna] == 'X') {
+            asientos[fila][columna] = 'O'; // Asiento disponible
+            System.out.println("Reserva cancelada correctamente.");
+        } else {
+            System.out.println("No se puede cancelar la reserva. El asiento no está reservado.");
+        }
+    }
+
+    public void mostrarEstadoAsientos() {
+        System.out.println("Estado de los asientos:");
+        for (int i = 0; i < asientos.length; i++) {
+            for (int j = 0; j < asientos[i].length; j++) {
+                System.out.print(asientos[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        Teatro teatro = new Teatro(5, 10); // Crear un teatro con 5 filas y 10 columnas
+        teatro.mostrarEstadoAsientos();
+
+        // Reservar algunos asientos
+        teatro.reservarAsiento(1, 1);
+        teatro.reservarAsiento(2, 3);
+        teatro.mostrarEstadoAsientos();
+
+        // Cancelar una reserva
+        teatro.cancelarReserva(1, 1);
+        teatro.mostrarEstadoAsientos();
+    }
+}
+

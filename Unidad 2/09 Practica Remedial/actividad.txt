@@ -1,0 +1,6 @@
+INDICACIONES:
+Una vez que termines el ejercicio propuesto deberas subir tu compendio de ejercicios realizados durante el parcial, y aparte tu practica sumativa.
+Crear una matriz de n * m filas (cargar n y m por teclado) debera:
+1. Imprimir la matriz completa
+2. Imprimir el elemento mayor
+3. Intercambiar la segunda fila con la tercera fila.

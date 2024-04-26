@@ -1,0 +1,3 @@
+El alumnos investigara: 1. concepto y características de arreglos multidimensionales.  
+2. Como se realiza declaración 
+3.Ejemplo de un arreglo multidimensional.
