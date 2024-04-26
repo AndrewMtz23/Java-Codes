@@ -1,0 +1,10 @@
+PARA SA:
+Elaborará un compendio de programas documentados que contengan:
+Pilas y colas.
+Métodos de creación de pilas y colas.
+Operaciones de inserción y extracción.
+Elaborará un compendio de programas documentados que contengan:
+Árboles binarios.
+Métodos de creación de árboles binarios.
+Operaciones de inserción y eliminación en árboles binarios.
+Métodos de búsqueda y recorrido en árboles binarios.

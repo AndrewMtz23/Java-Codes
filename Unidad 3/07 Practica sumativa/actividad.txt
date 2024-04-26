@@ -1,0 +1,3 @@
+El alumno desarrolara una practica que implemente pilas y colas que contenga:
+Implementar un codigo para una maquina dispensadora que utilice una cola de pedidos y una pila de productos disponibles.
+Cuando se realice un pedido a la maquina se agregue a la cola y cuando se atienda un pedido se elimine de la cola, y que reduzca la cantidad de producto disponible en la pila.

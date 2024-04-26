@@ -1,0 +1,2 @@
+Puedes trabajar en equipo (2 personas) tu reto sera buscar un juego en la web que implemente pilas y colas, y que realices tu version personalizada.
+Deberas mostrar la version original del juego y la version personalizada esta actividad se entregara el lunes a las 15:00 hrs

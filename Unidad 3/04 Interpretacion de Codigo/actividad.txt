@@ -1,0 +1,10 @@
+Sistema de gestión de procesamiento de pedidos en un restaurante de comida rápida.
+
+Imagina que estás desarrollando un sistema para un restaurante que recibe pedidos de comida y los procesa de manera eficiente. Aquí hay un diseño simplificado que utiliza pilas y colas:
+Cuando un cliente realiza un pedido en el restaurante (por ejemplo, a través de un mostrador o un sistema en línea), el pedido se agrega a una cola de pedidos pendientes para su preparación.
+En la cocina del restaurante, los cocineros pueden manejar múltiples pedidos simultáneamente, pero los preparan uno a la vez. Los pedidos en proceso se colocan en una pila.
+Los pedidos se toman de la cola de pendientes y se colocan en la pila de pedidos en proceso para su preparación. Una vez que un pedido se ha completado, se elimina de la pila.
+
+Indicaciones:
+
+Deberas completar el codigo creando el metodo de procesamiento de pedido, y crear el execute para el programa.

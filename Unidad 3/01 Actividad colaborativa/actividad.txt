@@ -1,0 +1,17 @@
+En equipos de 3 personas deberan realizar una pequeña presentacion sobre:
+
+
+1.Identificar el concepto
+
+
+2.Características de
+pilas y colas.  
+
+
+3.Operaciones que se realizan con pilas y colas.  
+
+
+4.Elementos del poo utilizados en la creación y manejo de
+pilas y colas  
+
+Deberas crear una actividad ludica que cubra los 4 puntos.

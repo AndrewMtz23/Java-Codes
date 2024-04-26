@@ -1,0 +1,8 @@
+Validación de lectura:
+1. Concepto de arbol
+2. De que esta integrado un arbol
+3. Menciona brevemente un requisito para trabajar con arbol
+4. Por que se dice que un  nodo es externo
+5. Que entiendes por profundidad
+6. Que caracteristicas tiene un arbol binario
+7. Explica brevemente como funciona el codigo proporcionado en la presentacion

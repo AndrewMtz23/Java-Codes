@@ -1,0 +1,2 @@
+implementación de la búsqueda en postorden en un árbol binario.
+El método postorden debe recorrer recursivamente el árbol en postorden (izquierda, derecha, raíz) e imprimir los valores de los nodos visitados.

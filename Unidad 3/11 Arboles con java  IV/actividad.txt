@@ -1,0 +1,1 @@
+Dada la siguiente imagen crea las funciones necesarias para crear los 2 arboles con los valores proporcionados y que se impriman para validar la estructura

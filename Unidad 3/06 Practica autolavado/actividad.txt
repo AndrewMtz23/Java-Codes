@@ -1,0 +1,5 @@
+En un autolavado donde los autos llegan, se lavan y luego salen de la cola de espera.
+Utiliza una cola para gestionar los autos en espera
+Utiliza una pila para almacenar los autos que ya han sido lavados.
+El programa debe mostrar un menú con diferentes opciones para el usuario, como registrar un nuevo auto, lavar un auto, ver la cola de espera y ver los autos lavados.
+Buena suerte

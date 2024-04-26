@@ -1,0 +1,3 @@
+1. Con base al codigo realizado en la actividad de pilas parte 1, ahora el alumno implementara el uso de una cola con la misma funcionalidad que tuvo el programa de la pila
+2. crear un sistema de gestión de tareas pendientes. En este caso, se debe usar una cola para manejar la lista de tareas pendientes y una pila para manejar las tareas que se están procesando actualmente.Deberas implementar los siguientes metodos:
+El método agregarTarea agrega una tarea a la lista de tareas pendientes, procesarSiguienteTarea saca la siguiente tarea pendiente de la cola y la coloca en la pila de tareas en proceso, y finalizarTareaActual saca la tarea que se está procesando actualmente de la pila, lo que simula completar la tarea

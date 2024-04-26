@@ -1,0 +1,51 @@
+import java.util.*;
+
+public class TareasView {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Queue<String> tareasPendientes = new LinkedList<>();
+        Stack<String> tareasEnProceso = new Stack<>();
+
+        int opcion;
+        do {
+            System.out.println("\n--- Menú ---");
+            System.out.println("1. Agregar tarea pendiente");
+            System.out.println("2. Procesar siguiente tarea");
+            System.out.println("3. Finalizar tarea actual");
+            System.out.println("4. Ver total de tareas pendientes");
+            System.out.println("5. Ver todas las tareas pendientes");
+            System.out.println("6. Salir");
+            System.out.print("Seleccione una opción: ");
+            opcion = scanner.nextInt();
+            scanner.nextLine(); // Consumir el salto de línea
+
+            switch (opcion) {
+                case 1:
+                    agregarTarea(tareasPendientes, scanner);
+                    break;
+                case 2:
+                    procesarSiguienteTarea(tareasPendientes, tareasEnProceso);
+                    break;
+                case 3:
+                    finalizarTareaActual(tareasEnProceso);
+                    break;
+                case 4:
+                    System.out.println("Total de tareas pendientes: " + tareasPendientes.size());
+                    break;
+                case 5:
+                    verTareasPendientes(tareasPendientes);
+                    break;
+                case 6:
+                    System.out.println("Saliendo del programa...");
+                    break;
+                default:
+                    System.out.println("Opción no válida. Por favor, seleccione una opción válida.");
+                    break;
+            }
+
+        } while (opcion != 6);
+
+        scanner.close();
+    }
+}

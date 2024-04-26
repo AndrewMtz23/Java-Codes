@@ -1,0 +1,37 @@
+package CompHrenecia;
+
+import java.util.Stack;
+
+public class EjemploPilas {
+    public static void main(String[] args) {
+        // Creamos una pila
+        Stack<Integer> pila = new Stack<>();
+
+        // Agregamos elementos a la pila
+        pila.push(10);
+        pila.push(20);
+        pila.push(30);
+        pila.push(40);
+
+        // Mostramos la pila
+        System.out.println("Pila original: " + pila);
+
+        // Obtenemos y mostramos el elemento en la cima de la pila sin removerlo
+        int cima = pila.peek();
+        System.out.println("Elemento en la cima de la pila: " + cima);
+
+        // Removemos el elemento en la cima de la pila
+        int elementoEliminado = pila.pop();
+        System.out.println("Elemento eliminado de la cima de la pila: " + elementoEliminado);
+
+        // Mostramos la pila después de la eliminación
+        System.out.println("Pila después de eliminar el elemento en la cima: " + pila);
+
+        // Verificamos si la pila está vacía
+        if (pila.isEmpty()) {
+            System.out.println("La pila está vacía");
+        } else {
+            System.out.println("La pila NO está vacía");
+        }
+    }
+}

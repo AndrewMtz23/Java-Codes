@@ -1,0 +1,34 @@
+import java.util.Queue;
+import java.util.LinkedList;
+import java.util.Stack;
+
+public class Pedido {
+    private String nombreCliente;
+    private String comida;
+
+    public Pedido(String nombreCliente, String comida) {
+        this.nombreCliente = nombreCliente;
+        this.comida = comida;
+    }
+
+    public String getNombreCliente() {
+        return nombreCliente;
+    }
+
+    public String getComida() {
+        return comida;
+    }
+}
+
+public class Cocina {
+    private Queue<Pedido> pedidosPendientes;
+    private Stack<Pedido> pedidosEnProceso;
+
+    public Cocina() {
+        pedidosPendientes = new LinkedList<>();
+        pedidosEnProceso = new Stack<>();
+    }
+
+    public void agregarPedido(Pedido pedido) {
+        pedidosPendientes.offer(pedido);
+    }

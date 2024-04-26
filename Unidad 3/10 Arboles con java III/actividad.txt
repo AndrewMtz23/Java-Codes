@@ -1,0 +1,5 @@
+El debera proponer un ejemplo de arbol binario que realice:
+1. Admita la insercion de valores
+2. Búsqueda de valores
+3. Eliminación de nodos,
+4. Recorridos en el árbol (preorden)

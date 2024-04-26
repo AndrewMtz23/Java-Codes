@@ -1,0 +1,3 @@
+Este código muestra cómo crear una pila (Stack), agregar elementos a la pila utilizando el método push(), obtener el elemento en la cima de la pila sin removerlo utilizando peek(), remover el elemento en la cima de la pila utilizando pop(), verificar si la pila está vacía utilizando isEmpty(), y cómo imprimir el contenido de la pila utilizando su método toString().
+
+Tu trabajo sera modificar el codigo para agregar 10 nombres de personas e ir removiendo los nombres de la pila
